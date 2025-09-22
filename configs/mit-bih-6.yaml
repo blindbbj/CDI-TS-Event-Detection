@@ -1,0 +1,32 @@
+
+data:
+  name: mit-bih-6
+  path: /workspace/data/peter/mit-bih-6/stra_preprocess
+  lead_num: 1
+
+training:
+  batch_size: 64
+  epochs: 100
+  lr: 1e-4
+  patience: 5
+  seed: 42
+  device: cuda:0
+
+model:
+  num_classes: 6
+  num_queries: 10
+  d_model: 40
+  nhead: 8
+  num_layers: 6
+  num_feature_levels: 3
+
+loss:
+  chief_ratio: [68.98, 31.02]
+  label_ratio: [73.07, 10.42, 0.59, 10.03, 4.57, 1.32]
+
+metrics:
+  conf_threshold: 0.05
+  map_iou_thresholds: [0.1, 0.3, 0.5, 0.7]
+
+save:
+  dir: outputs/mit-bih-6

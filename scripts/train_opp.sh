@@ -1,0 +1,1 @@
+python -m src.CDI-TS-ED.train --config configs/opp.yaml

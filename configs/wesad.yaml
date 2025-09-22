@@ -1,0 +1,32 @@
+data:
+  name: wesad
+  path: /workspace/data/peter/wesad/stra_preprocess
+  lead_num: 7
+
+training:
+  batch_size: 64
+  epochs: 100
+  lr: 1e-4
+  patience: 5
+  seed: 42
+  device: cuda:0
+
+model:
+  num_classes: 8
+  num_queries: 10
+  d_model: 40
+  nhead: 8
+  num_layers: 6
+  num_feature_levels: 3
+
+
+loss:
+  chief_ratio: [44.43, 55.57]
+  label_ratio: [45.44, 20.29, 11.48, 6.42, 13.60, 0.91, 0.91, 0.95]
+  
+metrics:
+  conf_threshold: 0.05
+  map_iou_thresholds: [0.1, 0.3, 0.5, 0.7]
+
+save:
+  dir: outputs/wesad

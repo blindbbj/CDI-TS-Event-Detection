@@ -1,0 +1,33 @@
+
+data:
+  name: opp
+  path: /workspace/data/peter/opp/stra_preprocess
+  lead_num: 36
+
+training:
+  batch_size: 64
+  epochs: 100
+  lr: 1e-4
+  patience: 5
+  seed: 42
+  device: cuda:0
+
+model:
+  num_classes: 5
+  num_queries: 10
+  d_model: 40
+  nhead: 8
+  num_layers: 6
+  num_feature_levels: 3
+
+
+loss:
+  chief_ratio: [4.90, 95.10]
+  label_ratio: [14.71, 42.36, 24.16, 15.93, 2.84]
+
+metrics:
+  conf_threshold: 0.05
+  map_iou_thresholds: [0.1, 0.3, 0.5, 0.7]
+
+save:
+  dir: outputs/opp
