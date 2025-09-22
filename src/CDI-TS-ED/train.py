@@ -9,7 +9,6 @@ from torch.optim import AdamW
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 import random
-from torchmetrics.detection.mean_ap import MeanAveragePrecision
 
 from .data import ChunkDatasetManager
 from .models import Model
