@@ -1,7 +1,7 @@
 
 data:
   name: mit-bih-15
-  path: /workspace/data/peter/mit-bih-15/stra_preprocess
+  path: /workspace/mit-bih-15/stra_preprocess
   lead_num: 1
 
 training:

@@ -1,6 +1,6 @@
 data:
   name: wesad
-  path: /workspace/data/peter/wesad/stra_preprocess
+  path: /workspace/wesad/stra_preprocess
   lead_num: 7
 
 training:

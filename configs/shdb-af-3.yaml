@@ -1,6 +1,6 @@
 data:
   name: shdb-af-3
-  path: /workspace/data/peter/shdb-af-3/stra_preprocess
+  path: /workspace/shdb-af-3/stra_preprocess
   lead_num: 2
 
 training:

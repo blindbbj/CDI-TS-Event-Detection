@@ -1,7 +1,7 @@
 
 data:
   name: opp
-  path: /workspace/data/peter/opp/stra_preprocess
+  path: /workspace/opp/stra_preprocess
   lead_num: 36
 
 training:
