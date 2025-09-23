@@ -54,3 +54,16 @@ The interaction process and the resulting detection outcomes are as follows.
     </tr>
   </table>
 </p>
+
+## Requirements
+
+```bash
+numpy==1.24.4
+pandas==2.3.1
+scikit-learn==1.7.1
+scipy==1.15.3
+chronos-forecasting==1.5.3
+torch==2.7.1+cu118
+PyYAML==6.0.2
+tqdm==4.67.1
+
