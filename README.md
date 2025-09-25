@@ -15,7 +15,6 @@ To address these challenges, we propose a coarse-to-fine detection framework com
 
 <p align="center">
   <table>
-    <!-- 1행: 이미지 2개 -->
     <tr>
       <td align="center">
         <img src="./fig/model.png" alt="model" width="400"/>
@@ -24,7 +23,6 @@ To address these challenges, we propose a coarse-to-fine detection framework com
         <img src="./fig/agm.png" alt="AGM" width="400"/>
       </td>
     </tr>
-    <!-- 2행: 캡션 2개 -->
     <tr>
       <td align="center"><em>Figure 1. Overall Framework.</em></td>
       <td align="center"><em>Figure 2. Adaptive Gating Module (AGM).</em></td>
@@ -39,7 +37,6 @@ The interaction process and the resulting detection outcomes are as follows.
 
 <p align="center">
   <table>
-    <!-- 1행: 이미지 2개 -->
     <tr>
       <td align="center">
         <img src="./fig/interaction.png" alt="model" width="400"/>
@@ -48,7 +45,6 @@ The interaction process and the resulting detection outcomes are as follows.
         <img src="./fig/prediction.png" alt="AGM" width="400"/>
       </td>
     </tr>
-    <!-- 2행: 캡션 2개 -->
     <tr>
       <td align="center"><em>Figure 3. Context-Detail Interaction</em></td>
       <td align="center"><em>Figure 4. Prediction Result</em></td>
