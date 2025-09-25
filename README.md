@@ -31,7 +31,6 @@ To address these challenges, we propose a coarse-to-fine detection framework com
 </p>
 
 ## Result
-
 Our model demonstrated effective detection of sparse events based on the interaction between long- and short-term dependencies. 
 The interaction process and the resulting detection outcomes are as follows.
 
